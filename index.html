@@ -7,26 +7,30 @@
 	<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
 	<link rel="stylesheet" href="./css/bootstrap.css">
 	<link rel="stylesheet" href="./css/style.css">
+
 	<!-- <link rel="stylesheet" href="./css/resetcss.css"> -->
     <title>Bryan Coiffure</title>
   </head>
   <body>
 
 <!-- HEADER -->
-	<header id="menu" class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-		<img id="banniere" class="img-fluid" alt="" src="./assets/img/logo.png">
-		<nav id="nav" class="navbar navbar-expand-lg navbar-light col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+	<header id="menu" class="row">
+		 <div class="col-12 title">
+			<h1 id="banniere">boonk barber</h1>
+		</div>
+		<nav id="nav" class="navbar navbar-expand-lg navbar-light col-12">
+
 			<img src="./assets/img/logo.png" id="logo_menu" class="img-fluid">
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-				<div class="navbar-nav text-center">
+				<div class="navbar-nav">
 
-						<a class="nav-button nav-button:hover " href="#">Home</a>
-						<a class="nav-button nav-button:hover" href="#RDV">Rendez-vous</a>
-						<a class="nav-button nav-button:hover" href="#galerie">Galerie</a>
-						<a class="nav-button nav-button:hover" href="#contact">Contact</a>
+						<a class="nav-button nav-button:hover text-center" href="#">Home</a>
+						<a class="nav-button nav-button:hover text-center" href="#RDV">Rendez-vous</a>
+						<a class="nav-button nav-button:hover text-center" href="#galerie">Galerie</a>
+						<a class="nav-button nav-button:hover text-center" href="#contact">Contact</a>
 					
 				</div>
 			</div>
@@ -34,10 +38,10 @@
 	</header>
 	
 <!-- MAIN -->
-	<main class="text-center col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+	<main class="text-center row">
 
 		<!-- DEBUT SECTION 1 -->
-		<section id="presentation" class="">
+		<section id="presentation" class="col-12">
 			<p>Bienvenue chez Boonk Barber !</p>
 			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo architecto quod aliquam est quas! Ad quasi illum eaque, porro obcaecati dolor molestiae voluptate a necessitatibus quia? Consectetur quaerat quae non!</p>
 			<img src="http://design-ec.com/d/e_others_50/l_e_others_500.png" alt="profil" class="img-fluid">
@@ -46,7 +50,7 @@
 		<!-- FIN SECTION 1 -->
 
 		<!-- DEBUT SECTION 2 -->
-		<section id="galerie">
+		<section id="galerie" class="col-12">
 
 			<!-- DEBUT 1ER ARTICLE -->
 			<article id="slide" class="carousel slide text-center offset-sm-3 col-sm-6" data-ride="carousel">
@@ -81,7 +85,7 @@
 		<!-- FIN SECTION 2 -->
 		
 		<!-- DEBUT SECTION 3 -->
-		<section id="RDV">
+		<section id="RDV" class="col-12">
 
 			<!-- DEBUT 1ER ARTICLE -->
 			<article id="forms">
@@ -128,12 +132,12 @@
 		<!-- FIN SECTION 3 -->
 
 		<!-- DEBUT SECTION 4 -->
-		<section id="plan_horaire" class="text-center">
+		<section id="plan_horaire" class="col-12 text-center">
 
 			<!-- DEBUT 1ER ARTICLE -->
 			<article id="horaire" class="">
 				<p>HORAIRES</p>
-				<img src="http://bouledor.e-monsite.com/medias/images/horaire-magasin.png" >
+				<img src="./assets/img/horaire.png" class="img-fluid" >
 			</article>
 			<!-- FIN 1ER ARTICLE -->
 
@@ -148,11 +152,11 @@
 		<!-- FIN SECTION 4 -->
 		
 		<!-- SECTION 5 -->
-		<section id="contact_us" class="text-center">
+		<section id="contact_us" class="col-12 text-center">
 			<p>CONTACT US</p>
 			<!-- DEBUT 1ER ARTICLE -->
 			<section id="contact">
-				<article class="card" style="width: 18rem;">
+				<article class="card col-xs-12 col-6" style="width: 18rem;">
 					<img src="./assets/img/Photo_3.png" class="card-img-top" alt="photo profil">
 					<div class="card-body">
 							<p class="nomPrenom">YEM Bryan</p>
@@ -162,7 +166,7 @@
 				<!-- FIN 1ER ARTICLE -->
 	
 				<!-- DEBUT 2EME ARTICLE -->
-				<article class="card" style="width: 18rem;">
+				<article class="card col-xs-12 col-6" style="width: 18rem;">
 					<img src="./assets/img/Photo_3.png" class="card-img-top" alt="photo profil">
 					<div class="card-body">
 						<p class="nomPrenom">YEM Bryan</p>
@@ -178,8 +182,8 @@
 
 
 	<!-- FOOTER -->
-	<footer class="text-center col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-		<p>&copy Bryan Site - KhmerDao - 2019</p>
+	<footer class="row">
+		<p class="text-center">&copy Bryan Site - KhmerDao - 2019</p>
 	</footer>	
 
 	
