@@ -1,15 +1,35 @@
-@import "./css/menu.css";
+@import "./menu.css";
+@import "./banniere.css";
 
 :root{
     scroll-behavior: smooth;
 }
 
-header{
+
+
+body{
+    background-image: url(https://image.freepik.com/photos-gratuite/texture-fond-or_44865-93.jpg);
+    background-repeat: repeat;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: "Montserrat";
+    justify-content: center;
+    flex-direction: column;
+}
+
+header, main, footer, div, section, article{
     display: flex;
+    flex-direction: column;
+}
+
+.navbar-collapse{
+align-items: flex-end;
+}
+
+header{
     top: 0px;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 #banniere{
@@ -17,11 +37,6 @@ header{
     height: 200px;
 }
 
-body{
-    background-image: url(https://image.freepik.com/photos-gratuite/texture-fond-or_44865-93.jpg);
-    background-repeat: repeat;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 
 main{
 
